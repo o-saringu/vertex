@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html {
+    caret-color: transparent;
+}
+
+body{
+	background-color:#CCFFFF;	
+}
+
+.yoko{
+	display:flex;
+ 	justify-content:space-around;
+}
+
+.midasi{
+	background-color:#268AFF;
+	display:flex;
+	justify-content: center;
+	position:relative;
+}
+
+h1{
+      	color:#FD9A28;
+	font-size:80px;
+	font-size:5.4vw; 
+	margin:0 auto;
+	font-family: 'Bangers',sans-serif; 
+}
+
+.oomidasi{
+	font-size:3vw;
+	font-weight:bold;
+	padding-left:10px;
+	border-left :solid 10px #268AFF;
+	color:
+}
+
+
+
+.komidasi1,.komidasi2,.komidasi3{
+	font-size:2vw;
+	font-weight: bold;
+	padding-left:5px;
+}
+
+.ep{
+	width:98%;
+	font-size:1.2vw;
+	background-color:#FFF;	
+	border-radius:20px 20px 20px 20px;
+	padding:5px;	
+	border:2px solid  #0099FF;
+}
+
+.code{
+	font-size:1.2vw;
+	background-color:#FFF;	
+	border-radius:20px 20px 20px 20px;	
+	padding:5px;
+	border:2px solid  #0099FF;
+}
+
+.yoko1{
+	width:50%;
+	padding:5px;
+
+}
+
+.yoko1 img{
+	width:100%;
+	border-radius:20px 20px 20px 20px;
+	border:2px solid  #0099FF;
+
+}
+
+.home {
+	position:absolute;
+	font-size: 3vw ;
+	right:0;
+	margin-right:8px;
+	margin-top:3%;
+	width: 0.4em;
+	height: 0.4em;
+	border-top: 0.6em solid #39a9d6;
+	border-left: 0.4em solid #39a9d6;
+	border-right: 0.4em solid #39a9d6;
+}
+/* 屋根 */
+.home::before {
+	position: absolute;
+	content: "";
+	top: -1.2em;
+	left: -0.6em;
+	width: 0;
+	height: 0;
+	border-left: 0.8em solid transparent;
+	border-right: 0.8em solid transparent;
+	border-bottom: 0.8em solid #39a9d6;
+}
+/* 煙突 */
+.home::after {
+	position: absolute;
+	top: -1.0em;
+	left: 0.6em;
+	width: 0.1em;
+	height: 0.4em;
+	content: "";
+	background-color: #39a9d6;
+}
